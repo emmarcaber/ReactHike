@@ -33,11 +33,13 @@ function List() {
     // fruits.sort((a, b) => a.calories - b.calories); //  NUMERIC
     fruits.sort((a, b) => b.calories - a.calories); //  NUMERIC
 
+    // const lowCalFruits = fruits.filter(fruit => fruit.calories < 100);
+    const highCalFruits = fruits.filter(fruit => fruit.calories >=  100);
 
-    const listItems = fruits.map(fruit => 
-        <li key={fruit.id}>
-            {fruit.name}: &nbsp;
-            <b>{fruit.calories}</b>
+    const listItems = highCalFruits.map(highCalFruit => 
+        <li key={highCalFruit.id}>
+            {highCalFruit.name}: &nbsp;
+            <b>{highCalFruit.calories}</b>
         </li>
     );
 
