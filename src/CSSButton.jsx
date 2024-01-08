@@ -1,5 +1,5 @@
 
-function Button() {
+function CSSButton() {
     const styles = {
         backgroundColor: "hsl(200, 100%, 50%)",
         color: "white",
@@ -14,4 +14,4 @@ function Button() {
     );
 }
 
-export default Button;
+export default CSSButton;
