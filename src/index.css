@@ -80,3 +80,32 @@
     color: hsl(0, 0%, 45%);
     cursor: pointer;
 }
+
+.counter-container {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter-display {
+    font-size: 10em;
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: hsl(0, 0%, 20%)
+}
+
+.counter-button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0px 5px;
+    background-color: hsl(197, 100%, 58%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.counter-button:hover {
+    background-color: hsl(197, 100%, 48%);
+}
