@@ -4,7 +4,8 @@ function MyComponent() {
     const [name, setName] = useState("Guest");
     const [quantity, setQuantity] = useState(1);
     const [comment, setComment] = useState("");
-    const [payment, setPayment] = useState("");
+    const [payment, setPayment] = useState("Mastercard");
+    const [shipping, setShipping] = useState("");
 
     function handleNameChange(e) {
         setName(e.target.value);
@@ -20,6 +21,10 @@ function MyComponent() {
 
     function handlePaymentChange(e) {
         setPayment(e.target.value);
+    }
+
+    function handleShippingChange(e) {
+        setShipping(e.target.value);
     }
 
     return (
@@ -40,6 +45,20 @@ function MyComponent() {
                 <option value="Giftcard">Giftcard</option>
             </select>
             <p>Payment: {payment}</p>
+
+            <label>
+                <input type="radio" value="Pick-up"
+                checked={shipping === "Pick-up"}
+                onChange={handleShippingChange} />
+                Pick-up
+            </label>
+            <label>
+                <input type="radio" value="Delivery"
+                checked={shipping === "Delivery"}
+                onChange={handleShippingChange} />
+                Delivery
+            </label>
+            <p>Shipping: {shipping}</p>
         </div>
     )
 }
