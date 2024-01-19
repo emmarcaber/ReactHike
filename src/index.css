@@ -1,158 +1,163 @@
 .card {
-    border: 1px solid hsl(0, 0%, 80%);
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
-    padding: 20px;
-    margin: 10px;
-    text-align: center;
-    max-width: 250px;
-    display: inline-block;
-}   
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
 
 .card .card-image {
-    max-width: 80%;
-    height: auto;
-    border-radius: 50%;
-    margin-bottom: 10px;
+  max-width: 80%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 .card .card-title {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    color: hsl(0, 0%, 20%)
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 20%);
 }
 
 .card .card-text {
-    font-family: Arial, Helvetica, sans-serif;
-    color: hsl(0, 0%, 30%);
+  font-family: Arial, Helvetica, sans-serif;
+  color: hsl(0, 0%, 30%);
 }
 
 .student {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    padding: 10px;
-    border: 1px solid hsl(0, 0%, 50%, 0.8);
-    margin: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsl(0, 0%, 50%, 0.8);
+  margin: 1rem;
 }
 
 .student p {
-    margin: 0;
+  margin: 0;
 }
 
 .welcome-message {
-    font-size: 2.5em;
-    background-color: hsl(120, 100%, 42%);
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 0;
+  font-size: 2.5em;
+  background-color: hsl(120, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
 }
 
 .login-prompt {
-    font-size: 2.5em;
-    background-color: hsl(0, 100%, 42%);
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 0;
+  font-size: 2.5em;
+  background-color: hsl(0, 100%, 42%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
 }
 
 .list-category {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: hsl(0, 0%, 20%);
-    margin-bottom: 10px;
-    text-align: center;
-    border: 3px solid;
-    border-radius: 5px;
-    background-color: hsl(185, 100%, 50%);
+  font-size: 2.5em;
+  font-weight: bold;
+  color: hsl(0, 0%, 20%);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(185, 100%, 50%);
 }
 
 .list-items {
-    font-size: 2em;
-    list-style: none;
-    color: hsl(0, 0%, 25%);
-    text-align: center;
-    margin: 0;
+  font-size: 2em;
+  list-style: none;
+  color: hsl(0, 0%, 25%);
+  text-align: center;
+  margin: 0;
 }
 
 .list-items li:hover {
-    color: hsl(0, 0%, 45%);
-    cursor: pointer;
+  color: hsl(0, 0%, 45%);
+  cursor: pointer;
 }
 
 .counter-container {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .counter-display {
-    font-size: 10em;
-    margin-top: 0;
-    margin-bottom: 50px;
-    color: hsl(0, 0%, 20%)
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+  color: hsl(0, 0%, 20%);
 }
 
 .counter-button {
-    width: 150px;
-    height: 50px;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin: 0px 5px;
-    background-color: hsl(197, 100%, 58%);
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: hsl(197, 100%, 58%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
 .counter-button:hover {
-    background-color: hsl(197, 100%, 48%);
+  background-color: hsl(197, 100%, 48%);
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .color-picker-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
-    margin: 50px;
-    font-size: 3em;
+  margin: 50px;
+  font-size: 3em;
 }
 
 .color-display {
-    width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid hsl(0, 0%, 80%);
-    border-radius: 25px;
-    margin-bottom: 25px;
-    transition: 0.25s ease;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid hsl(0, 0%, 80%);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
 }
 
 .color-display p {
-    color: hsl(0, 0%, 20%);
-    font-size: 2rem;
-    text-align: center;
+  color: hsl(0, 0%, 20%);
+  font-size: 2rem;
+  text-align: center;
 }
 
 label {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-input[type=color] {
-    width: 75px;
-    height: 50px;
-    padding: 5px;
-    border-radius: 10px;
-    border: 3px solid hsl(0, 0%, 80%);
+input[type="color"] {
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+}
+
+.box {
+  border: 3px solid;
+  padding: 25px;
 }
